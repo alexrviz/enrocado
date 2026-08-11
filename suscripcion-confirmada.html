@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#f0ede3" />
+    <title>Suscripción confirmada — Enrocado</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .message-page { min-height: 100svh; display: grid; grid-template-rows: auto 1fr auto; }
+      .message { display: grid; grid-template-columns: minmax(42px,18%) 1fr; border-bottom: 2px solid var(--line); }
+      .message-copy { display:flex; flex-direction:column; justify-content:center; padding:clamp(4rem,10vw,10rem) clamp(1rem,6vw,8rem); }
+      .message h1 { max-width:1050px; margin:0 0 2rem; }
+      .message p { max-width:620px; margin:0 0 2rem; font:clamp(1.2rem,2.5vw,2rem)/1.25 Georgia,serif; }
+      .back-link { width:max-content; font-weight:800; text-underline-offset:.25em; }
+      @media(max-width:650px){.message{grid-template-columns:42px 1fr}.message-copy{padding:4rem 1.1rem}}
+    </style>
+  </head>
+  <body class="message-page">
+    <header class="site-header"><a class="wordmark" href="index.html">ENROCADO</a><p class="header-note">CARTAS DE VENTAS<br />POR ENCARGO</p></header>
+    <main class="message">
+      <p class="folio" aria-hidden="true">CONFIRMADO</p>
+      <div class="message-copy">
+        <h1>YA ESTÁS DENTRO.</h1>
+        <p>Tu dirección ha quedado confirmada. A partir de ahora recibirás los emails de Enrocado.</p>
+        <a class="back-link" href="index.html">VOLVER A LA WEB →</a>
+      </div>
+    </main>
+    <footer><p>© 2026 ENROCADO</p><nav class="footer-links"><a href="privacidad.html">PRIVACIDAD</a><a href="aviso-legal.html">AVISO LEGAL</a></nav></footer>
+  </body>
+</html>
