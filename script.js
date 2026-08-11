@@ -44,7 +44,7 @@
       status.textContent = error.message || "Ha ocurrido un error. Inténtalo de nuevo.";
     } finally {
       button.disabled = false;
-      button.innerHTML = "ENVIAR <span aria-hidden='true'>→</span>";
+      button.innerHTML = "SUSCRIBIRME <span aria-hidden='true'>→</span>";
     }
   });
 })();
