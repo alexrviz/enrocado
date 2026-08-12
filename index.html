@@ -14,67 +14,46 @@
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-    <header class="site-header" aria-label="Cabecera">
-      <a class="wordmark" href="#" aria-label="Ir al inicio">ENROCADO</a>
-      <p class="header-note">CARTAS DE VENTAS<br />POR ENCARGO</p>
-      <a class="header-link" href="#formulario">CONTACTO ↓</a>
-    </header>
-
     <main id="contenido">
-      <section class="hero" aria-labelledby="titulo-principal">
-        <p class="folio" aria-hidden="true">01 / PROPUESTA</p>
-        <div class="hero-copy">
-          <p class="eyebrow">[ETIQUETA O IDEA DE 3–6 PALABRAS]</p>
-          <h1 id="titulo-principal">[TÍTULO PRINCIPAL. DOS O TRES LÍNEAS.]</h1>
-          <p class="subtitle">[SUBTÍTULO: QUÉ HACES, PARA QUIÉN Y POR QUÉ DEBERÍA IMPORTARLE.]</p>
-        </div>
-      </section>
+      <header class="intro">
+        <a class="wordmark" href="/" aria-label="Enrocado, inicio">ENROCADO</a>
+        <h1>[TÍTULO PRINCIPAL. CLARO Y DIRECTO.]</h1>
+        <p class="subtitle">[SUBTÍTULO: QUÉ HACES, PARA QUIÉN Y POR QUÉ DEBERÍA IMPORTARLE.]</p>
+      </header>
 
-      <section class="body-section" aria-labelledby="nota-titulo">
-        <div class="section-index" aria-hidden="true">
-          <span>02</span>
-          <span>NOTA</span>
-        </div>
-        <div class="body-copy">
-          <h2 id="nota-titulo" class="visually-hidden">Información sobre el servicio</h2>
-          <p>[PRIMER PÁRRAFO DEL CUERPO. EXPLICA EL PROBLEMA O LA SITUACIÓN QUE RECONOCE TU CLIENTE.]</p>
-          <p>[SEGUNDO PÁRRAFO. CUENTA QUÉ HACES CON LAS CARTAS DE VENTAS Y CÓMO TRABAJAS.]</p>
-          <p>[TERCER PÁRRAFO. ACLARA PARA QUIÉN ES, PARA QUIÉN NO ES O QUÉ PUEDE ESPERAR.]</p>
-        </div>
-      </section>
+      <article class="body-copy" aria-label="Información sobre el servicio">
+        <p>[PRIMER PÁRRAFO DEL CUERPO. EXPLICA EL PROBLEMA O LA SITUACIÓN QUE RECONOCE TU CLIENTE.]</p>
+        <p>[SEGUNDO PÁRRAFO. CUENTA QUÉ HACES CON LAS CARTAS DE VENTAS Y CÓMO TRABAJAS.]</p>
+        <p>[TERCER PÁRRAFO. ACLARA PARA QUIÉN ES, PARA QUIÉN NO ES O QUÉ PUEDE ESPERAR.]</p>
+      </article>
 
       <section class="signup" id="formulario" aria-labelledby="form-title">
-        <div class="section-index section-index--light" aria-hidden="true">
-          <span>03</span>
-          <span>SIGUIENTE PASO</span>
-        </div>
-        <div class="signup-copy">
-          <h2 id="form-title">[LLAMADA A LA ACCIÓN BREVE.]</h2>
-          <p>[UNA FRASE PARA EXPLICAR QUÉ RECIBIRÁ LA PERSONA AL DEJAR SU EMAIL.]</p>
+        <h2 id="form-title">[LLAMADA A LA ACCIÓN.]</h2>
+        <p>[UNA FRASE PARA EXPLICAR QUÉ RECIBIRÁ LA PERSONA AL DEJAR SU EMAIL.]</p>
 
-          <form class="email-form" data-email-form novalidate>
-            <label for="email">TU EMAIL</label>
-            <div class="field-row">
-              <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="nombre@ejemplo.com" required aria-describedby="form-note form-status" />
-              <button type="submit">SUSCRIBIRME <span aria-hidden="true">→</span></button>
-            </div>
-            <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
-            <p class="form-note" id="form-note">Al suscribirte solicitas recibir emails de Enrocado. Podrás darte de baja cuando quieras. <a href="privacidad.html">Política de privacidad</a>.</p>
-            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-          </form>
-        </div>
+        <form class="email-form" data-email-form novalidate>
+          <label for="email">TU EMAIL</label>
+          <div class="field-row">
+            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="nombre@ejemplo.com" required aria-describedby="form-note form-status" />
+            <button type="submit">SUSCRIBIRME <span aria-hidden="true">→</span></button>
+          </div>
+          <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <p class="form-note" id="form-note">Al suscribirte solicitas recibir emails de Enrocado. Podrás darte de baja cuando quieras. <a href="privacidad.html">Política de privacidad</a>.</p>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
       </section>
     </main>
 
     <footer>
       <p>© <span data-year>2026</span> ENROCADO</p>
-      <nav class="footer-links" aria-label="Información legal">
-        <a href="privacidad.html">PRIVACIDAD</a>
-        <a href="aviso-legal.html">AVISO LEGAL</a>
+      <nav aria-label="Información legal">
+        <a href="privacidad.html">Privacidad</a>
+        <a href="aviso-legal.html">Aviso legal</a>
       </nav>
     </footer>
+
     <!-- Cloudflare Web Analytics -->
-  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"865df05f37be44d89da27278b6924f37"}'></script>
-  <!-- End Cloudflare Web Analytics -->
-</body>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"865df05f37be44d89da27278b6924f37"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+  </body>
 </html>
